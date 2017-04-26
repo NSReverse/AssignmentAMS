@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment AMS</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_activity_add_class">Add Class</string>
+    <string name="title_activity_add_reminder">Add To Do</string>
+    <string name="title_activity_view_assignments">View Assignments</string>
+    <string name="title_activity_add_assignment">Add Assignment</string>
+</resources>

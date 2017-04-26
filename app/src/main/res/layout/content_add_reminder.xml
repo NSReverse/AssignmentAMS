@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.x10.reverseeffectapps.assignmentams.mvc.view.AddReminderActivity"
+    tools:showIn="@layout/activity_add_reminder"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/text_view_add_reminder_label_0"
+        android:text="To Do Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text_add_reminder_name"
+        android:layout_below="@id/text_view_add_reminder_label_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_add_reminder_label_1"
+        android:text="To Do Date"
+        android:layout_below="@id/edit_text_add_reminder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text_add_reminder_date"
+        android:layout_below="@id/text_view_add_reminder_label_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_view_add_reminder_comments"
+        android:text="To Do Extra Comments"
+        android:layout_below="@id/edit_text_add_reminder_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text_add_reminder_comments"
+        android:layout_below="@id/text_view_add_reminder_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
